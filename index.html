@@ -6,34 +6,37 @@
     <link rel="stylesheet" href="style.css">
     <title>ODIN Landing Page</title>
 </head>
+
 <body>
 <header>
-<div class="opening-column">
-<h1> Header </h1>
-</div>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">Athletes</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">Mission</a>
+    <img src="usm.jpeg" alt="Logo" class="logo">
+    <a href="#about" class="split">Help</a>
+  </div>
 </header>
 
 <main>
-    <section class="welcome">
-         <inner-column>
+    <section class="welcome"> 
 
-     <graphic-diptych>
-             <text-content> 
-                <h1> This site is not awesome</h1>
+<!-- The video -->
+<div class="container">
+<video autoplay muted loop id="myVideo">
+  <source src="Athlete.mp4" type="video/mp4">
+</video>
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>What we do</h1>
+  <p>Don't just read about what we do, hear about it from our athletes themselves!</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Heard enough?</button>
+  </div>
+</div>
 
-                <p> Here is a paragraph to support the welcome area stuff</p>
-            
-                <a href="#"> Sign Up </a>
 
-             </text-content>
-
-            <picture>
-
-             <img src="sly dog.jpeg" alt="ODIN"> </p>
-             </picture>
-
-            </graphic-diptych>
-    
     </section>
 
     <section> 
